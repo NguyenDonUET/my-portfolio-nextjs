@@ -10,7 +10,7 @@ export const projects = [
     category: "web app",
     // github: "https://github.com/NguyenDonUET/advanced-todo-list-vuejs",
     liveApp: "https://hoidapthuoc.com/",
-    features: [
+    responsibilities: [
       {
         name: "Contributed to building user interface, ensuring a responsive and user-friendly interface.",
         details: [
@@ -35,7 +35,7 @@ export const projects = [
     category: "web app",
     // github: "https://github.com/NguyenDonUET/advanced-todo-list-vuejs",
     // liveApp: "https://advanced-todo-list-nguyendonuet.netlify.app",
-    features: [
+    responsibilities: [
       {
         name: "Implemented virtualization techniques to optimize the display of large lists, improving performance and user experience.",
         details: [

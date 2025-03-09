@@ -66,7 +66,10 @@ function ProjectCard({
           </p>
           {isInModal && (
             <>
-              <ProjectFeatures features={project.features} />
+              <ProjectFeatures
+                title={project.features ? "Features" : "Responsibilities"}
+                features={project.features || project.responsibilities}
+              />
               <ProjectCardLinks
                 github={project.github}
                 liveApp={project.liveApp}
